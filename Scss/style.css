@@ -127,7 +127,7 @@ button:focus {
   background-color: #c4c4c4;
 }
 .bid__btn-send button::before {
-  content: url("../image/Button-icon.svg");
+  content: url("../image/button-icon.png");
   position: relative;
   left: -20px;
 }
@@ -249,7 +249,7 @@ button:focus {
   background-color: #009C41;
 }
 .statistic__search-button button::before {
-  content: url("../image/Button-icon.svg");
+  content: url("../image/button-icon.png");
   position: relative;
   left: -20px;
 }

@@ -151,7 +151,7 @@ $colorGreen: #009C41;
   }
 
   &__btn-send button::before {
-    content: url("../image/Button-icon.svg");
+    content: url("../image/button-icon.png");
     position: relative;
     left: -20px;
   }
@@ -286,7 +286,7 @@ $colorGreen: #009C41;
   }
 
   &__search-button button::before {
-    content: url("../image/Button-icon.svg");
+    content: url("../image/button-icon.png");
     position: relative;
     left: -20px;
   }
