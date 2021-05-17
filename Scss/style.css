@@ -35,7 +35,6 @@ button:focus {
   color: #009C41;
   font-weight: 700;
   font-size: 16px;
-  max-width: 260px;
   line-height: 18px;
   text-align: right;
 }
@@ -459,6 +458,7 @@ button:focus {
   }
 
   .table-row {
+    display: block;
     position: absolute;
     top: 150px;
     left: 100px;
@@ -559,6 +559,27 @@ button:focus {
 
   .change-first, .change-second {
     padding: 5px 0;
+  }
+}
+@media (max-width: 390px) {
+  .bid__login-text {
+    padding: 50px 10px 15px 0;
+  }
+
+  .bid__input-img:before, .bid__input-img:after {
+    margin: -58px 0 0 55px;
+  }
+
+  .button button {
+    padding: 15px 25px;
+  }
+
+  .statistic__header-image {
+    display: none;
+  }
+
+  .statistic__search-input input {
+    width: 150px;
   }
 }
 

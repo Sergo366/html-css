@@ -40,7 +40,6 @@ $colorGreen: #009C41;
     color: $colorGreen;
     font-weight: 700;
     font-size: 16px;
-    max-width: 260px;
     line-height: 18px;
     text-align: right;
   }
@@ -161,6 +160,7 @@ $colorGreen: #009C41;
     background-color: $colorGreen;
   }
 }
+
 .table-row {
   display: flex;
 }
@@ -493,6 +493,7 @@ $colorGreen: #009C41;
     color: #21325E;
   }
   .table-row {
+    display: block;
     position: absolute;
     top: 150px;
     left: 100px;
@@ -553,7 +554,7 @@ $colorGreen: #009C41;
   .statistic__search-button button {
     display: none;
   }
-  .button-plus{
+  .button-plus {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -574,6 +575,7 @@ $colorGreen: #009C41;
     transform: rotate(-90deg);
   }
 }
+
 @media (max-width: 390px) {
   .table-row, .table-green-text, .table div:last-child {
     text-align: left;
@@ -583,7 +585,26 @@ $colorGreen: #009C41;
     padding: 15px 0;
     font-size: 14px;
   }
-  .change-first, .change-second{
+  .change-first, .change-second {
     padding: 5px 0;
   }
 }
+
+@media (max-width: 390px) {
+  .bid__login-text {
+    padding: 50px 10px 15px 0;
+  }
+  .bid__input-img:before, .bid__input-img:after {
+    margin: -58px 0 0 55px;
+  }
+  .button button {
+    padding: 15px 25px;
+  }
+  .statistic__header-image {
+    display: none;
+  }
+  .statistic__search-input input {
+    width: 150px
+  }
+
+  }
